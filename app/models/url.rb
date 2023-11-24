@@ -1,6 +1,6 @@
 class Url < ApplicationRecord
 
   def full
-    "#{BASEURL}/#{short_url}"
+    "#{BASEURL}/u/#{short_url}"
   end
 end

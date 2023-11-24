@@ -1,5 +1,5 @@
 class UrlsController < ApplicationController
-  before_action :set_url, only: %i[ show edit update destroy ]
+  before_action :set_url, only: %i[ show ]
 
   def show
   end
